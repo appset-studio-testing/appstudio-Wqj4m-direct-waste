@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-kflf
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/ysubrama_org/release-e2e-bundle-tenant/appstudio/dc-metro-map-kflf@sha256:7b97d138158c9a664cec6929db152c1d15cf012a8413b9fe014c29c605c09abf
+        name: my-nodejs
+        resources: {}
+status: {}
