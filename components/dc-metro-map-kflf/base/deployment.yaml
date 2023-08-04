@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-kflf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/ysubrama_org/release-e2e-bundle-tenant/appstudio/dc-metro-map-kflf@sha256:7b97d138158c9a664cec6929db152c1d15cf012a8413b9fe014c29c605c09abf
         name: my-nodejs
         ports:
         - containerPort: 3001
